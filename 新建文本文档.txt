@@ -1,0 +1,34 @@
+Congratulations, ShadowsocksR server install completed!
+Your Server IP        :  34.87.168.144 
+Your Server Port      :  8989 
+Your Password         :  xuzhongqiu 
+Your Protocol         :  origin 
+Your obfs             :  plain 
+Your Encryption Method:  aes-256-cfb 
+
+Welcome to visit:https://shadowsocks.be/9.html
+
+
+在浏览器窗口中打开后按以下步骤结合视频讲解操作
+1．ROOT设置
+     sudo -i
+2.安装SSR脚本
+   wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh && chmod +x shadowsocksR.sh
+3.运行配置SSR
+    ./shadowsocksR.sh
+4 5 6为安装BBR Plus加速器步骤
+4.再次ROOT设置
+   sudo -i
+5.
+yum -y install wget
+6.安装BBR Plus
+wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+7.
+先输入2，安装 BBRplus版内核，安装完之后重启系统，重启后
+ROOT设置
+sudo -i
+再运行脚本
+wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+输入7，使用BBRplus版加速
+一键安装完毕
+
